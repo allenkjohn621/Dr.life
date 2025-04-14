@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo-top-left img {
+    height: 100px;
+    margin-left: 150px;
+}
+
+.para-top-right {
+    border: 2px solid #eee;
+    margin-right: 150px;
+    width: 400px;
+    padding: 12px 18px 12px 18px;
+    border-radius: 6px;
+}
