@@ -335,14 +335,14 @@ hr {
     margin-top: 3rem;
 }
 
-.contact-section {
+/* .contact-section {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
     box-sizing: border-box;
     margin-top: 3rem;
-}
+} */
 
 .submit-form {
     display: flex;
