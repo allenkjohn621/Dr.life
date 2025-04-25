@@ -223,7 +223,7 @@ body {
     width: 60%;
 }
 
-.advice-card button {
+.readmore-button-style-small {
     border: none;
     background-color: #fff;
     color: rgba(255, 0, 0, 0.671);
@@ -303,7 +303,7 @@ body {
     flex-direction: column;
 }
 
-.content-three-para button {
+.readmore-button-style-small {
     border: none;
     background-color: #fff;
     color: rgba(255, 0, 0, 0.671);
@@ -375,4 +375,121 @@ textarea {
     font-size: 25px;
 }
 
-.footer-section-one {}
+
+
+.slider-card-section .slick-slide {
+    padding-right: 20px;
+}
+
+.slider-card-section {
+    position: relative;
+}
+
+.slider-card-section .next-arrow {
+    position: absolute;
+    bottom: 50%;
+    right: -2rem;
+}
+
+.slider-card-section .prev-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: -3rem;
+}
+
+.slider-card-section .slick-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.slider-card-section .slick-arrow:hover {
+    background: rgb(45, 186, 181);
+    border: 1px solid #fff;
+}
+
+.slider-card-section .slick-arrow:hover i {
+    color: #fff;
+}
+
+.content-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 35px;
+    gap: 2rem;
+    /* margin: 0 auto; */
+    /* margin-left: 4rem; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.content-five-card {
+    display: flex;
+    align-items: center;
+}
+
+.five-card-heading {
+    color: rgb(45, 186, 181);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 2px solid #eee;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.five-card-heading h5 {
+    font-weight: bolder;
+}
+
+.five-card-heading h2 {
+    font-weight: bolder;
+}
+
+.five-logo-right-bottom img {
+    height: 100px;
+    margin-bottom: 20px;
+    /* margin-left: 0rem; */
+}
+
+.main-content-five {
+    background-color: #f8f8f8;
+    margin-top: 3rem;
+}
+
+.content-five-maincard {
+    width: 31%;
+}
+
+.content-five-logo {
+    margin-bottom: 7rem;
+}
+
+.hr-style-for-content-five {
+    width: 29rem;
+}
+
+.content-five-maincard p {
+    opacity: 0.5;
+    font-size: 15px;
+    padding-top: 2rem;
+}
+
+.five-logo-right-bottom {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.readmore-button-greybg {
+    background-color: #f8f8f8;
+}
